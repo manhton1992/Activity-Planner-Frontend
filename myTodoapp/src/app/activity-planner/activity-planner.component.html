@@ -1,0 +1,12 @@
+
+<div class="card col-4" routerLink="/activityPlanners/{{acvitity._id}}">
+  <div class="form-group">
+    <input [(ngModel)]="acvitity.name" [ngModelOptions]="{standalone: true}" type="text" class="form-control" placeholder="name" readonly>
+  </div>
+  <div class="form-group">
+    <input [(ngModel)]="acvitity.description" [ngModelOptions]="{standalone: true}" type="text" class="form-control" placeholder="description" readonly>
+  </div>
+  <div class="form-group">
+    <input [(ngModel)]="acvitity.place" [ngModelOptions]="{standalone: true}" type="text" class="form-control" placeholder="place" readonly>
+  </div>
+</div>

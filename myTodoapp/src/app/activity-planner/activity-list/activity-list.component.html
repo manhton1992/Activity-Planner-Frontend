@@ -1,0 +1,10 @@
+<app-new-activity-planner></app-new-activity-planner>
+<div>
+  <div>
+    <p>{{activities.length}}</p>
+  </div>
+  <div *ngFor="let activity of activities">
+    <app-activity-planner [acvitity]="activity"> </app-activity-planner>
+  </div>
+</div>
+

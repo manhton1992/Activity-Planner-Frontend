@@ -1,0 +1,29 @@
+
+<div class="">
+  <h1>Add new Task</h1>
+  <form (ngSubmit)="addTask()" (load)="$event" novalidate>
+    <div class="form-group">
+      <input [(ngModel)]="newTask.title" [ngModelOptions]="{standalone: true}" type="text" class="form-control" id="title" required="required" placeholder="title">
+    </div>
+    <div class="form-group">
+      <input [(ngModel)]="newTask.description" [ngModelOptions]="{standalone: true}" type="text" class="form-control" id="description" placeholder="description">
+    </div>
+    <div class="form-group">
+      <div class="row">
+        <div class="col">
+          <label> priority :
+            <input [(ngModel)]="newTask.priority" [ngModelOptions]="{standalone: true}" type="number" id="priority" min="1" max="10" placeholder="priority">
+          </label>
+        </div>
+        <div class="col">
+          <label for="done" class="btn btn-info">
+            <input [(ngModel)]="newTask.done" [ngModelOptions]="{standalone: true}" type="checkbox" class="badge-info" id="done" data-toggle="switch">
+            <a style="padding-left: 10px">Done</a>
+          </label>
+        </div>
+      </div>
+    </div>
+    <button type="submit" class="btn btn-success">add Task</button>
+  </form>
+</div>
+

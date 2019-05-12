@@ -1,0 +1,24 @@
+
+<div class="card col-4" routerLink="/tasks/{{task._id}}">
+  <div class="form-group">
+    <input [(ngModel)]="task.title" [ngModelOptions]="{standalone: true}" type="text" class="form-control" placeholder="title" readonly>
+  </div>
+  <div class="form-group">
+    <input [(ngModel)]="task.description" [ngModelOptions]="{standalone: true}" type="text" class="form-control" placeholder="description" readonly>
+  </div>
+  <div class="form-group">
+    <div class="row">
+      <div class="col">
+        <label> priority :
+          <input [(ngModel)]="task.priority" [ngModelOptions]="{standalone: true}" type="number" min="1" max="10" placeholder="priority" readonly>
+        </label>
+      </div>
+      <div class="col">
+        <label class="btn btn-info">
+          <input [(ngModel)]="task.done" [ngModelOptions]="{standalone: true}" type="checkbox" class="badge-info" data-toggle="switch" disabled="disabled">
+          <a style="padding-left: 10px">Done</a>
+        </label>
+      </div>
+    </div>
+  </div>
+</div>

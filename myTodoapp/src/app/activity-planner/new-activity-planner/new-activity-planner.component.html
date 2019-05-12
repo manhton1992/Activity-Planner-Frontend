@@ -1,0 +1,33 @@
+<div class="">
+  <h1>Add new Activity</h1>
+  <form (ngSubmit)="addnewActivity()">
+    <div class="form-group">
+      <input [(ngModel)]="newActivity.name" [ngModelOptions]="{standalone: true}" type="text" class="form-control" id="name" required="required" placeholder="name">
+    </div>
+    <div class="form-group">
+      <input [(ngModel)]="newActivity.description" [ngModelOptions]="{standalone: true}" type="text" class="form-control"  placeholder="description" >
+    </div>
+    <div class="form-group">
+      <label for="startTime">Start Time:</label>
+      <input [(ngModel)]="newActivity.startTime" [ngModelOptions]="{standalone: true}" type="datetime-local" class="form-control" id="startTime" placeholder="startTime" required="required">
+    </div>
+    <div class="form-group">
+      <label for="endTime">End Time:</label>
+      <input [(ngModel)]="newActivity.endTime" [ngModelOptions]="{standalone: true}" type="datetime-local" class="form-control" id="endTime"  placeholder="endTime" required="required">
+    </div>
+    <div class="form-group">
+      <input [(ngModel)]="newActivity.place" [ngModelOptions]="{standalone: true}" type="text" class="form-control"  placeholder="place" required="required">
+    </div>
+    <div class="form-group">
+      <label for="endTime">Priority: &nbsp; </label>
+      <input [(ngModel)]="newActivity.priority" [ngModelOptions]="{standalone: true}" type="number" id="priority" min="1" max="10" placeholder="priority">
+    </div>
+    <div class="form-group">
+      <input [(ngModel)]="newActivity.participant" [ngModelOptions]="{standalone: true}" type="text" class="form-control"  placeholder="participant">
+    </div>
+    <div class="form-group">
+      <input [(ngModel)]="newActivity.category" [ngModelOptions]="{standalone: true}" type="text" class="form-control"  placeholder="category">
+    </div>
+    <button type="submit" class="btn btn-success">add New Activity</button>
+  </form>
+</div>
