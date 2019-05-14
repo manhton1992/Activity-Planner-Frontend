@@ -39,8 +39,8 @@ $ npm install
    - From Taskbar you can see: Dashboard, Task, Activities, Download Activities  
 1. Click "Download Activities" : you can download all activities with file data ".csv" on your computer
 2. Click "Activities" : Link to Seite "activityPlanners". you can see all activities, amount current, pass, upcomming activities with name, description, place and status of activity and create new "Activity" hier.  
-Note: feld require : name, start Time, end Time, place.
-![alt_text](image/activities.PNG)
-3. Click on each activity : Link to activity dateil. you can Read, Change and Delete all information of this activity.
-![alt text](image/activitydateil.PNG)
+Note: feld require : name, start Time, end Time, place.  
+![alt_text](./myTodoapp/image/activities.PNG)
+3. Click on each activity : Link to activity dateil. you can Read, Change and Delete all information of this activity.  
+![alt text](./myTodoapp/image/activityDateil.PNG)
 4. each action you can see "message".
