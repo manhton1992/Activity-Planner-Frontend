@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="43af6102-3c5b-4a3d-8d18-52655ce84df7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/myTodoapp/image/activities.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myTodoapp/image/activitiyDateil.PNG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -52,8 +49,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="181">
-                <caret line="33" column="6" lean-forward="true" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
+              <first_editor relative-caret-position="385">
+                <caret line="45" column="37" lean-forward="true" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
               </first_editor>
               <second_editor />
             </state>
@@ -139,6 +136,12 @@
               <item name="fwe-ss19-754346-ha2" type="462c0819:PsiDirectoryNode" />
               <item name="myTodoapp" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="fwe-ss19-754346-ha2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fwe-ss19-754346-ha2" type="462c0819:PsiDirectoryNode" />
+              <item name="myTodoapp" type="462c0819:PsiDirectoryNode" />
+              <item name="image" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -191,18 +194,18 @@
       <workItem from="1557598086588" duration="22975000" />
       <workItem from="1557694839934" duration="1283000" />
       <workItem from="1557697823630" duration="2714000" />
-      <workItem from="1557824221207" duration="13004000" />
+      <workItem from="1557824221207" duration="13784000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101570000" />
+    <option name="totallyTimeSpent" value="102350000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21863118" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21863118" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -216,7 +219,7 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="TypeScript" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5006337" side_tool="true" weight="0.32974428" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49936628" visible="true" weight="0.30417228" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49936628" visible="true" weight="0.30417228" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -610,8 +613,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="181">
-            <caret line="33" column="6" lean-forward="true" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
+          <first_editor relative-caret-position="385">
+            <caret line="45" column="37" lean-forward="true" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
           </first_editor>
           <second_editor />
         </state>
