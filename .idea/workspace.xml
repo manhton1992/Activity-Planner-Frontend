@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="43af6102-3c5b-4a3d-8d18-52655ce84df7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/myTodoapp/image/activities.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myTodoapp/image/activitiyDateil.PNG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myTodoapp/src/app/activity-planner/activity-dateil/activity-dateil.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/myTodoapp/src/app/activity-planner/activity-dateil/activity-dateil.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myTodoapp/src/app/activity-planner/activity-list/activity-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/myTodoapp/src/app/activity-planner/activity-list/activity-list.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myTodoapp/src/app/activity-planner/activity-list/activity-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/myTodoapp/src/app/activity-planner/activity-list/activity-list.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myTodoapp/src/app/activity-planner/activity-planner.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/myTodoapp/src/app/activity-planner/activity-planner.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myTodoapp/src/app/activity-planner/activity-planner.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/myTodoapp/src/app/activity-planner/activity-planner.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myTodoapp/src/app/activity-planner/activity.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/myTodoapp/src/app/activity-planner/activity.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myTodoapp/src/app/message/message.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/myTodoapp/src/app/message/message.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,39 +19,9 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myTodoapp/src/app/activity-planner/activity-dateil/activity-dateil.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="68" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="68" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myTodoapp/src/app/activity-planner/activity-planner.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="6" lean-forward="true" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myTodoapp/src/app/activity-planner/activity-planner.component.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="401">
-              <caret line="26" column="40" lean-forward="true" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
-              <folding>
-                <element signature="e#0#55#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myTodoapp/src/app/activity-planner/activity-list/activity-list.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
+            <state relative-caret-position="299">
               <caret line="26" column="41" lean-forward="true" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
               <folding>
                 <element signature="e#0#50#0" expanded="true" />
@@ -65,22 +31,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myTodoapp/src/app/activity-planner/activity.service.ts">
+        <entry file="file://$PROJECT_DIR$/myTodoapp/src/app/activity-planner/activity-list/activity-list.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="21" column="51" lean-forward="true" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
-              <folding>
-                <element signature="e#0#43#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="170">
+              <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myTodoapp/src/app/activity-planner/activity-planner.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/myTodoapp/src/app/message/message.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="74" selection-start-line="4" selection-start-column="74" selection-end-line="4" selection-end-column="74" />
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="181">
+                <caret line="33" column="6" lean-forward="true" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -136,19 +111,14 @@
         <option value="$PROJECT_DIR$/myTodoapp/src/app/activity-planner/activity-list/activity-list.component.ts" />
         <option value="$PROJECT_DIR$/myTodoapp/src/app/activity-planner/activity-list/activity-list.component.html" />
         <option value="$PROJECT_DIR$/myTodoapp/src/app/message/message.component.html" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-131" />
-    <option name="width" value="634" />
+    <option name="x" value="488" />
+    <option name="y" value="15" />
+    <option name="width" value="790" />
     <option name="height" value="876" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -169,35 +139,6 @@
               <item name="fwe-ss19-754346-ha2" type="462c0819:PsiDirectoryNode" />
               <item name="myTodoapp" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="fwe-ss19-754346-ha2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fwe-ss19-754346-ha2" type="462c0819:PsiDirectoryNode" />
-              <item name="myTodoapp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fwe-ss19-754346-ha2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fwe-ss19-754346-ha2" type="462c0819:PsiDirectoryNode" />
-              <item name="myTodoapp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fwe-ss19-754346-ha2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fwe-ss19-754346-ha2" type="462c0819:PsiDirectoryNode" />
-              <item name="myTodoapp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="activity-planner" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fwe-ss19-754346-ha2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fwe-ss19-754346-ha2" type="462c0819:PsiDirectoryNode" />
-              <item name="myTodoapp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="message" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -214,6 +155,11 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
     <property name="ts.external.directory.path" value="C:\Users\manht\Desktop\5.ss\Fortgeschrittene Webentwicklung\HA1\fwe-ss19-754346-ha2\myTodoapp\node_modules\typescript\lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\manht\Desktop\5.ss\Fortgeschrittene Webentwicklung\HA1\fwe-ss19-754346-ha2\myTodoapp\image" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -245,18 +191,18 @@
       <workItem from="1557598086588" duration="22975000" />
       <workItem from="1557694839934" duration="1283000" />
       <workItem from="1557697823630" duration="2714000" />
-      <workItem from="1557824221207" duration="8790000" />
+      <workItem from="1557824221207" duration="13004000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97356000" />
+    <option name="totallyTimeSpent" value="101570000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21863118" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21863118" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -270,7 +216,7 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="TypeScript" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5006337" side_tool="true" weight="0.32974428" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49936628" visible="true" weight="0.30417228" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49936628" visible="true" weight="0.30417228" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -280,18 +226,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/myTodoapp/src/app/task/tasklist/tasklist.component.spec.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#73#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myTodoapp/src/node_modules/bootstrap/dist/css/bootstrap.min.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/myTodoapp/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -607,13 +541,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myTodoapp/src/app/activity-planner/activity-planner.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="6" lean-forward="true" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/myTodoapp/src/app/activity-planner/activity-dateil/activity-dateil.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -631,9 +558,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/myTodoapp/src/app/message/message.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myTodoapp/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myTodoapp/src/app/activity-planner/activity.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="21" column="51" lean-forward="true" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/myTodoapp/src/app/activity-planner/activity-list/activity-list.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
+        <state relative-caret-position="299">
           <caret line="26" column="41" lean-forward="true" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
           <folding>
             <element signature="e#0#50#0" expanded="true" />
@@ -648,20 +600,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myTodoapp/src/app/activity-planner/activity.service.ts">
+    <entry file="file://$PROJECT_DIR$/myTodoapp/src/app/activity-planner/activity-planner.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="21" column="51" lean-forward="true" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="272">
+          <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myTodoapp/src/app/message/message.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="74" selection-start-line="4" selection-start-column="74" selection-end-line="4" selection-end-column="74" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="181">
+            <caret line="33" column="6" lean-forward="true" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
