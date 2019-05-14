@@ -31,7 +31,7 @@
     <label for="category">Participant:</label>
     <input [(ngModel)]="activity.category" [ngModelOptions]="{standalone: true}" type="text" class="form-control"  id="category" placeholder="category">
   </div>
-  <div class="row">
+  <div class="row form-group">
     <button (click)="goBack()" class="col-md-2">go back</button>
     <button (click)="save()" class="col-md-2">save</button>
     <button (click)="deleteTask()" class="col-md-2">delete</button>

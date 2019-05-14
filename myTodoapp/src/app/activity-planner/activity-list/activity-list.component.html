@@ -1,7 +1,15 @@
 <app-new-activity-planner></app-new-activity-planner>
 <div>
-  <div>
-    <p>{{activities.length}}</p>
+  <div class="card">
+    <div>You have {{activities.length}} Activities</div>
+    <div *ngIf="getUpComingActivities().length > 0; else noUpcomming">
+      <span> : {{getUpComingActivities().length}} upcomming Activities</span>
+    </div>
+    <ng-template #noUpcomming><input type="text" class="form-control" placeholder="name" readonly value="No Upcomming Activities"></ng-template>
+    <div *ngIf="getPassActivities().length > 0; else noPass">
+      <span> : {{getPassActivities().length}} Pass Activities</span>
+    </div>
+    <ng-template #noPass><input type="text" class="form-control" placeholder="name" readonly value="No Pass Activities"></ng-template>
   </div>
   <div *ngFor="let activity of activities">
     <app-activity-planner [acvitity]="activity"> </app-activity-planner>

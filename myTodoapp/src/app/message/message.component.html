@@ -1,8 +1,8 @@
-<div *ngIf="messageService.messages.length">
+<div *ngIf="messageService.messages.length" class="card">
   <h2> Messages </h2>
   <hr>
-  <button (click)="messageService.clear()">clear</button>
-  <div *ngFor="let message of messageService.messages">
+  <button class="col-md-2 form-group" (click)="messageService.clear()">Clear Message</button>
+  <div *ngFor="let message of messageService.messages" class="form-group">
     <p> {{message}}</p>
   </div>
 </div>

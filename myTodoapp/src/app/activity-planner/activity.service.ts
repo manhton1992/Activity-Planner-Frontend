@@ -3,7 +3,7 @@ import {MessageService} from "../message/message.service";
 import {HttpClient} from "@angular/common/http";
 import {Observable} from "rxjs";
 import {activityPlannerTemplate} from "./models/temActivityPlanner";
-import {catchError, map} from "rxjs/internal/operators";
+import {catchError, filter, map} from "rxjs/internal/operators";
 import {activityPlanner} from "./models/activityPlann";
 @Injectable({
   providedIn: 'root'
@@ -15,8 +15,7 @@ export class ActivityService {
   constructor(private messageService: MessageService, private http: HttpClient) { }
   /** Get all activities*/
   getActivities(): Observable<activityPlanner[]> {
-    this.messageService.add('load messages');
-    //alert(this.http.get<activityPlanner[]>(this.activitiesUrl).pipe(map(response => response['data'])));
+    this.messageService.add('loaded Activities');
     return this.http.get<activityPlanner[]>(this.activitiesUrl).pipe(map(response => response['data']));
   }
   /** Add new activityPlanner on Database*/
@@ -37,12 +36,8 @@ export class ActivityService {
   /** Delete activity*/
   deleteActivity(task: activityPlanner): Observable<any>{
     const singleTaskUrl = this.activitiesUrl + '/' + task._id;
+    this.messageService.add('deleted Activity');
     return this.http.delete(singleTaskUrl).pipe();
   }
-  downloadActivities(): Observable<activityPlanner>{
-    const singleTaskUrl = this.activitiesUrl + '/' + 'download';
-    return this.http.get<activityPlanner[]>(singleTaskUrl).pipe(map(response => response['data']));
-  }
-
 }
 

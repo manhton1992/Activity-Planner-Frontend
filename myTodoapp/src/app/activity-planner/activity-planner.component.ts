@@ -23,5 +23,14 @@ export class ActivityPlannerComponent implements OnInit {
 
     return [localeTime.getFullYear(), month, date].join("-") + " " + [hour, min].join(":");
   }
+  timeCompare(stringDate: string): boolean{
+    const date1 = new  Date(stringDate);
+    const now = new Date();
+    if (date1 < now){
+      return true;
+    } else {
+      return false;
+    }
+  }
 
 }
