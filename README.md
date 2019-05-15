@@ -45,3 +45,13 @@ Note: feld require : name, start Time, end Time, place.
 ![alt text](./myTodoapp/image/activityDateil.PNG)
 4. each action you can see "message".
  - Error Handler: If any action is not possible, it will test the message on the screen
+ - Offline Function  : Suppose the client is editing / add 1 user. Users press submiit.
+                       Now use Angular to call the backend.
+                         Check respone returns if the server error message will switch to save the result temporarily
+                         into the cache like Chrome's Local storage.
+                       When the server is alive, it will check in local storage first, if there is a copy, it will automatically update serve
+                       The card informs the client about this caching.
+                       but it must be stated that not storing important things on local storage
+                       This generally does not encourage this
+                       It is only a temporary fire when the user has entered a lot of information.
+ 
