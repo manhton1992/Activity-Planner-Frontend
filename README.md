@@ -44,3 +44,4 @@ Note: feld require : name, start Time, end Time, place.
 3. Click on each activity : Link to activity dateil. you can Read, Change and Delete all information of this activity.  
 ![alt text](./myTodoapp/image/activityDateil.PNG)
 4. each action you can see "message".
+ - Error Handler: If any action is not possible, it will test the message on the screen
